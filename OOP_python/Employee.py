@@ -2,7 +2,7 @@
 class Employee:
 
     num_of_employees = 0
-    raise_amount = 1.04  # class variable
+    raise_amount = 1.15  # class variable
 
     def __init__(self, first_name, last_name, salary):
         self.first_name = first_name
