@@ -18,6 +18,7 @@ class Employee:
     def apply_raise(self):
         self.salary = int(self.salary * Employee.raise_amount)
 
+
 print('Number of employees: {}.'.format(Employee.num_of_employees))  # before creating instances of class
 
 emp_1 = Employee('Lukasz', 'Ziobro', 5600)  # creating instance of class Employee
