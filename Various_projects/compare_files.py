@@ -45,7 +45,7 @@ start_time = time.time()
 try:
     with open(first_file_path, 'r') as first_file:
         with open(second_file_path, 'r') as second_file:
-            diff = set(first_file).difference(second_file)
+            diff = set(first_file).symmetric_difference(second_file)
     with open(output_file_path, 'w') as output_file:
         for line in diff:
             output_file.write(line)
