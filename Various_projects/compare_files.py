@@ -1,5 +1,4 @@
 """----------------------------------------------------------------------------------
-
 Script compares two .TXT files (line by line) and saves differences in separate file.
 Script file and input files to compare needs to be in the same directory, as path to 
 file is generated as 'os.cwd (currend working directory)'.
@@ -8,7 +7,6 @@ In STEP 1) put names of files which needs to be compared:
 - put first file name in line 18 (without .TXT extension)
 - put second file name in line 19 (without .TXT extension)
 - put output file name in line 20 (without .TXT extension)
-
 ---------------------------------------------------------------------------------"""
 
 import time
